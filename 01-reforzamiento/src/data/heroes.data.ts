@@ -12,7 +12,7 @@ export interface Hero {
 //   Marvel,// 1
 // }
 
-enum Owner {
+export enum Owner {
   DC = "DC", // 'DC;
   Marvel = "Marvel", // 'Marvel'
 };

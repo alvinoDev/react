@@ -9,10 +9,12 @@ import './style.css'
 // import './bases/07-obj-destructuring'
 // import './bases/08-array-destructuring'
 // import './bases/09-task-usestate'
-import './bases/10-imp-exp'
+import { getHeroesByOwner } from './bases/10-imp-exp'
+import { Owner } from './data/heroes.data';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <section id="center">
   <h1>Hola Mundo!</h1>
 </section>
 `
+console.log(getHeroesByOwner(Owner.Marvel));

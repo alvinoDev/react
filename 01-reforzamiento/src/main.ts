@@ -12,7 +12,8 @@ import './style.css'
 // import { getHeroesByOwner } from './bases/10-imp-exp'
 // import { Owner } from './data/heroes.data';
 
-import './bases/11-promises'
+// import './bases/11-promises'
+import './bases/12-fetch-api'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <section id="center">
